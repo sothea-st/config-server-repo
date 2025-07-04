@@ -1,2 +1,16 @@
 global:
   message: This is global config for all services.
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sothea-st/config-server-repo.git
+          username: sothea-st
+          password: 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
