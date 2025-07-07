@@ -1,5 +1,5 @@
 server:
-  port: 80818  # Or different, if needed
+  port: 8088  # Or different, if needed
 
 customer:
   service:
