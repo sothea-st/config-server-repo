@@ -3,7 +3,7 @@ server:
 
 customer:
   service:
-    greeting: "Hello from DEV!"
+    greeting: "Hello from DEV ddddd!"
 
 spring:
   datasource:
