@@ -6,8 +6,6 @@ customer:
     greeting: "Hello from DEV!"
 
 spring:
-  profiles:
-    active: uat
   datasource:
     url: jdbc:mysql://${DB_HOST}:${DB_PORT}/${DB_NAME}
     username: ${DB_USERNAME}
