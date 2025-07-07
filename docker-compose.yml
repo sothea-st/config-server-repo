@@ -1,0 +1,17 @@
+services:
+
+  # create service name
+  discovery-server:
+    build: ./eureka-server
+    container_name: discovery-server
+    ports:
+      - "8761:8761"
+
+  # create service name
+  config-server:
+    build: ./config-server
+    container_name: config-server
+    ports:
+      - "8888:8888"
+    depends_on:
+      - discovery-server

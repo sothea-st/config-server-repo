@@ -1,0 +1,22 @@
+-- Insert 20 sample products
+INSERT INTO products (name, description, price) VALUES
+('Product 1', 'Description for product 1', 10.99),
+('Product 2', 'Description for product 2', 12.50),
+('Product 3', 'Description for product 3', 15.75),
+('Product 4', 'Description for product 4', 8.25),
+('Product 5', 'Description for product 5', 9.99),
+('Product 6', 'Description for product 6', 11.49),
+('Product 7', 'Description for product 7', 7.95),
+('Product 8', 'Description for product 8', 14.20),
+('Product 9', 'Description for product 9', 13.60),
+('Product 10', 'Description for product 10', 16.30),
+('Product 11', 'Description for product 11', 5.50),
+('Product 12', 'Description for product 12', 6.75),
+('Product 13', 'Description for product 13', 8.80),
+('Product 14', 'Description for product 14', 9.40),
+('Product 15', 'Description for product 15', 12.10),
+('Product 16', 'Description for product 16', 13.90),
+('Product 17', 'Description for product 17', 17.25),
+('Product 18', 'Description for product 18', 18.50),
+('Product 19', 'Description for product 19', 19.99),
+('Product 20', 'Description for product 20', 20.00);
